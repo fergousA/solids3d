@@ -3,7 +3,7 @@
 > **Version 0.3 — une seule fonction : `fig`.** Donnez un solide, une courbe de nœud ou une surface à `fig` : la
 > caméra, la lumière, l'ombrage et les contours sont choisis pour vous.
 >
-> [thumbnail.jpg](thumbnail.jpg "thumbnail.jpg")
+> [thumbnail.png](thumbnail.png "thumbnail.png")
 >
 > ```typst
 > #import "@preview/solids3d:0.4.0": *
