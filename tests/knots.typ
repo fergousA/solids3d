@@ -1,0 +1,10 @@
+#import "../lib.typ": *
+#set page(width: auto, height: auto, margin: 4pt)
+#let L = light((-1, 0.9, 1))
+#let P = orthographic(3, 2, 4)
+#picture(size: 4cm, projection: P, light: L, knot3(trefoil(), width: 10pt))
+#picture(size: 4cm, projection: P, light: L, knot3(trefoil(), width: 10pt, style: "weave", colors: (rgb("#c0392b"),)))
+#picture(size: 4cm, projection: P, style: "engraving", light: L, knot3(figure-eight(), width: 9pt, style: "weave"))
+#picture(size: 4cm, projection: orthographic(1, 1, 1), light: L, knot3(..borromean(), width: 7pt, style: "weave"))
+#picture(size: 4cm, projection: orthographic(1, 1, 5), light: L, knot3(torus-knot(3, 5, R: 2, r: 0.8), width: 6pt, samples: 200, style: "weave"))
+#picture(size: 4cm, projection: P, light: L, knot3(..hopf-link(R: 1.4), width: 9pt, style: "weave", flips: (0,)))
